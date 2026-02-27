@@ -1,4 +1,4 @@
-# claude-code-skill
+# claude-code-cli
 
 An [OpenClaw](https://github.com/openclaw/openclaw) skill for delegating coding tasks to the [Claude Code CLI](https://docs.anthropic.com/en/docs/claude-code).
 
@@ -20,14 +20,14 @@ An [OpenClaw](https://github.com/openclaw/openclaw) skill for delegating coding 
 ### From ClawHub
 
 ```bash
-openclaw skills install claude-code-skill
+openclaw skills install claude-code-cli
 ```
 
 ### Local
 
 ```bash
-git clone https://github.com/AtelyPham/openclaw-claude-code-skill.git ~/clawd/claude-code-skill
-openclaw skills install --local ~/clawd/claude-code-skill
+git clone https://github.com/AtelyPham/openclaw-claude-code-skill.git ~/clawd/claude-code-cli
+openclaw skills install --local ~/clawd/claude-code-cli
 ```
 
 ## Requirements
