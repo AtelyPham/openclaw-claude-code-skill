@@ -4,24 +4,8 @@ version: "0.1.0"
 description: "Delegate coding tasks to Claude Code CLI via background process. Use when: building features, reviewing PRs, refactoring codebases, or iterative coding that needs file exploration. Supports interactive PTY mode for confirmations/permissions and headless pipe mode for automation. NOT for: simple one-liner fixes (just edit), reading code (use read tool), or any work in ~/.openclaw/ workspace."
 author: "AtelyPham"
 license: "MIT"
-metadata:
-  {
-    "openclaw":
-      {
-        "emoji": "🧑‍💻",
-        "requires": { "bins": ["claude"] },
-        "install":
-          [
-            {
-              "id": "npm",
-              "kind": "npm",
-              "package": "@anthropic-ai/claude-code",
-              "bins": ["claude"],
-              "label": "Install Claude Code (npm)",
-            },
-          ],
-      },
-  }
+homepage: "https://github.com/AtelyPham/openclaw-claude-code-skill"
+metadata: {"openclaw":{"emoji":"🧑‍💻","requires":{"bins":["claude"]},"install":[{"id":"node","kind":"node","package":"@anthropic-ai/claude-code","bins":["claude"],"label":"Install Claude Code (npm)"}]}}
 ---
 
 # Claude Code Skill

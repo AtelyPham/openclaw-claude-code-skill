@@ -26,14 +26,14 @@ openclaw skills install claude-code
 ### Local
 
 ```bash
-git clone https://github.com/AtelyPham/claude-code-skill.git ~/clawd/claude-code
+git clone https://github.com/AtelyPham/openclaw-claude-code-skill.git ~/clawd/claude-code
 openclaw skills install --local ~/clawd/claude-code
 ```
 
 ## Requirements
 
 - [Claude Code CLI](https://docs.anthropic.com/en/docs/claude-code) (`claude` binary)
-- OpenClaw with bash tool that supports `pty:true`
+- OpenClaw with exec tool that supports `pty:true`
 
 ## License
 
