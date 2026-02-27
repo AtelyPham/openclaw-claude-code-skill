@@ -1,5 +1,7 @@
 # claude-code-cli
 
+[![ClawHub](https://img.shields.io/badge/ClawHub-claude--code--cli-blue)](https://clawhub.ai/AtelyPham/claude-code-cli)
+
 An [OpenClaw](https://github.com/openclaw/openclaw) skill for delegating coding tasks to the [Claude Code CLI](https://docs.anthropic.com/en/docs/claude-code).
 
 ## Features
