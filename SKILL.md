@@ -5,7 +5,7 @@ description: "Delegate coding tasks to Claude Code CLI via background process. U
 author: "AtelyPham"
 license: "MIT"
 homepage: "https://github.com/AtelyPham/openclaw-claude-code-skill"
-metadata: {"openclaw":{"emoji":"🧑‍💻","requires":{"bins":["claude"]},"install":[{"id":"node","kind":"node","package":"@anthropic-ai/claude-code","bins":["claude"],"label":"Install Claude Code (npm)"}]}}
+metadata: {"openclaw":{"emoji":"✻","requires":{"bins":["claude"]},"install":[{"id":"node","kind":"node","package":"@anthropic-ai/claude-code","bins":["claude"],"label":"Install Claude Code (npm)"}]}}
 ---
 
 # Claude Code Skill
